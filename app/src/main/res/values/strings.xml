@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Exercicio01-android</string>
+    <string name="country">Brasil</string>
+    <string name="food">Feijoada</string>
+</resources>
