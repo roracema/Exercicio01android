@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">"Esercizio01-android "</string>
+    <string name="country">Italia</string>
+    <string name="food">Tortellone</string>
+</resources>

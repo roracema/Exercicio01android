@@ -9,10 +9,12 @@
     tools:context=".MainActivity">
 
     <TextView
+        android:contentDescription="@string/country"
+        android:textSize="100px"
+        android:layout_gravity="center_horizontal"
         android:id="@+id/country"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="3dp"
         android:text="@string/country"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
@@ -21,20 +23,25 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
-        android:layout_gravity="center"
+        android:contentDescription="@drawable/flag"
         android:id="@+id/flag"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="268dp"
+        android:layout_height="196dp"
+        android:layout_gravity="center_horizontal"
         app:srcCompat="@drawable/flag" />
 
     <ImageView
         android:id="@+id/foodImage"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="268dp"
+        android:layout_height="196dp"
+        android:layout_gravity="center_horizontal"
         android:contentDescription="@drawable/food"
         app:srcCompat="@drawable/food" />
 
     <TextView
+        android:contentDescription="@string/food"
+        android:textSize="100px"
+        android:layout_gravity="center_horizontal"
         android:id="@+id/food"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
