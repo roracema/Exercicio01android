@@ -9,13 +9,15 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:contentDescription="@string/country"
-        android:textSize="100px"
-        android:layout_gravity="center_horizontal"
         android:id="@+id/country"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="1"
+        android:contentDescription="@string/country"
+        android:gravity="center"
         android:text="@string/country"
+        android:textSize="@dimen/text_size"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -23,29 +25,33 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
-        android:contentDescription="@drawable/flag"
         android:id="@+id/flag"
-        android:layout_width="268dp"
-        android:layout_height="196dp"
+        android:layout_width="@dimen/image_size"
+        android:layout_height="0dp"
         android:layout_gravity="center_horizontal"
+        android:layout_weight="2"
+        android:contentDescription="@drawable/flag"
         app:srcCompat="@drawable/flag" />
 
     <ImageView
         android:id="@+id/foodImage"
-        android:layout_width="268dp"
-        android:layout_height="196dp"
+        android:layout_width="@dimen/image_size"
+        android:layout_height="0dp"
         android:layout_gravity="center_horizontal"
+        android:layout_weight="2"
         android:contentDescription="@drawable/food"
         app:srcCompat="@drawable/food" />
 
     <TextView
-        android:contentDescription="@string/food"
-        android:textSize="100px"
-        android:layout_gravity="center_horizontal"
         android:id="@+id/food"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="1"
+        android:contentDescription="@string/food"
+        android:gravity="center"
         android:text="@string/food"
+        android:textSize="@dimen/text_size"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
